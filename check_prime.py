@@ -7,7 +7,7 @@ def is_prime(n):
     return True
 
 def get_number():
-    num = input("Enter a number: ")  
+    num = int(input("Enter a number: ")) 
     return num
 
 if __name__ == "__main__":
